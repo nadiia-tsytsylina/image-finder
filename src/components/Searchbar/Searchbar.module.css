@@ -12,11 +12,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
   color: #fff;
-  background: linear-gradient(
-    269.91deg,
-    rgba(33, 110, 157, 0.7) 35%,
-    rgba(251, 247, 49, 0.7) 98.16%
-  );
+  background: linear-gradient(269.91deg, #216e9d 35%, #fbf731 98.16%);
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
@@ -26,7 +22,7 @@
   align-items: center;
   width: 100%;
   max-width: 600px;
-  background-color: #fff;
+  background-color: #242424;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -62,6 +58,8 @@
   border: none;
   outline: none;
   padding: 8px 16px;
+  background-color: #242424;
+  color: #fff;
 }
 
 .SearchFormInput::placeholder {
