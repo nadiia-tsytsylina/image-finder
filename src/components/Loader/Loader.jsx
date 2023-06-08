@@ -11,8 +11,8 @@ export default function Loader() {
         ariaLabel="MagnifyingGlass-loading"
         wrapperStyle={{}}
         wrapperClass="MagnifyingGlass-wrapper"
-        glassColor="rgba(46, 49, 146, 0.2)"
-        color="rgba(212, 20, 90, 0.7)"
+        glassColor="rgba(251, 247, 49, 0.3)"
+        color="rgba(33, 110, 157, 0.8)"
       />
     </div>
   );

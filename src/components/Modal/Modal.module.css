@@ -15,6 +15,7 @@
   width: 85vw;
   height: 85vh;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .Image {

@@ -14,8 +14,8 @@
   color: #fff;
   background: linear-gradient(
     269.91deg,
-    rgba(46, 49, 146, 0.7) 0%,
-    rgba(212, 20, 90, 0.7) 98.16%
+    rgba(33, 110, 157, 0.7) 35%,
+    rgba(251, 247, 49, 0.7) 98.16%
   );
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
@@ -33,7 +33,7 @@
 
 .SearchFormButton {
   display: inline-block;
-  background-color: #b70261;
+  background-color: #fbf731;
   width: 48px;
   height: 48px;
   border: 0;
@@ -50,7 +50,7 @@
 .Icon {
   width: 32px;
   height: 32px;
-  color: #ffffff;
+  color: #216e9d;
 }
 
 .SearchFormInput {
