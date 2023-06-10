@@ -44,7 +44,9 @@ export default function App() {
           setIsShowLoadMore(false);
           return;
         } else {
-          setImages(state => (page === 1 ? hits : [...state, ...hits]));
+          setImages(prevImages =>
+            page === 1 ? hits : [...prevImages, ...hits]
+          );
           setIsShowLoadMore(page < Math.ceil(totalHits / 12));
           setIsLoading(false);
         }
