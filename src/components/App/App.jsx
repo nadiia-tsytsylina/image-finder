@@ -23,7 +23,7 @@ export default function App() {
   };
 
   const handleLoadMore = () => {
-    setPage(state => state + 1);
+    setPage(prevPage => prevPage + 1);
   };
 
   useEffect(() => {
