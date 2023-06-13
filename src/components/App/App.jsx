@@ -42,7 +42,6 @@ export default function App() {
           toast.error(`There are no images with tag ${query}`);
           setIsLoading(false);
           setIsShowLoadMore(false);
-          return;
         } else {
           setImages(prevImages =>
             page === 1 ? hits : [...prevImages, ...hits]
