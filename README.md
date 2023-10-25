@@ -2,7 +2,7 @@
 
 This is a React application.
 
-the app allows user to search for images by tags (name, color, theme) and
+The app allows user to search for images by tags (name, color, theme) and
 displays the results as an image gallery.
 
 ## Technology stack
